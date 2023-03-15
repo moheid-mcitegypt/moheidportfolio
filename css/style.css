@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Tilt Warp', cursive;
+    box-sizing: border-box;
+}
+.first-se {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/123.webp);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo {
+    color: whitesmoke;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: aqua;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: aqua;
+    transition: .4s;
+}
+.btn {
+    background-color: aqua;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-width: 8px;
+    font-weight: normal;
+    padding: 10px 25 px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover {
+    transform: scale(1.2);
+}
+.content{
+    text-transform: capitalize;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform: translateY(20%);
+    transform: translateX(100%);
+}
+h1{
+    color:#ff0a7c;
+    margin: 10px 0px 20px;
+    font-size: 70px;
+}
+h3 {
+    color: #ff0a7c;    
+    margin-bottom: 20px ;
+    font-size: 25px;
+}
+h4 {
+    color: #ff0a7c;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.newslatter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #ff0a7c;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #ff0a7c;
+    color:white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
